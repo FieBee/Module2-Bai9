@@ -1,0 +1,8 @@
+
+
+TDD(TestDrivenDevelopment)là một quy trình lập trình,trong đó
+bao gồm nhiều giai đoạn nhỏ lặp đi lặp lại, mỗi giai đoạn bao gồm
+các bước:
+1. Viết các bài kiểm thử
+2. Viết mã nguồn
+3. Tái cấu trúc mã nguồn.
