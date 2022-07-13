@@ -12,7 +12,7 @@ public class GetDayTest {
         int day = 1;
         int month = 1;
         int year = 2018;
-        String expected = "2 1 2018";
+        String expected = "2/1/2018";
 
         String result = GetDay.nextDay(day,month,year);
         assertEquals(expected,result);
@@ -24,7 +24,7 @@ public class GetDayTest {
         int day = 31;
         int month = 1;
         int year = 2018;
-        String expected = "1 2 2018";
+        String expected = "1/2/2018";
 
         String result = GetDay.nextDay(day,month,year);
         assertEquals(expected,result);
@@ -36,7 +36,7 @@ public class GetDayTest {
         int day = 30;
         int month = 4;
         int year = 2018;
-        String expected = "1 5 2018";
+        String expected = "1/5/2018";
 
         String result = GetDay.nextDay(day,month,year);
         assertEquals(expected,result);
@@ -49,7 +49,7 @@ public class GetDayTest {
         int day = 31;
         int month = 12;
         int year = 2018;
-        String expected = "1 1 2019";
+        String expected = "1/1/2019";
 
         String result = GetDay.nextDay(day,month,year);
         assertEquals(expected,result);
