@@ -43,4 +43,16 @@ public class GetDayTest {
     }
 
 
+    @Test
+    @DisplayName("Testing 31 12 2018")
+    void nextDayOf31_12_2018(){
+        int day = 31;
+        int month = 12;
+        int year = 2018;
+        String expected = "1 1 2019";
+
+        String result = GetDay.nextDay(day,month,year);
+        assertEquals(expected,result);
+    }
+
 }
