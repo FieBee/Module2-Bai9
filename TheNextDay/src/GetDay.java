@@ -7,8 +7,9 @@ public class GetDay {
             case 7:
             case 8:
             case 10:
-            case 12:
                 if (day == 31) return 1 +" "+ (month+1) + " "+year;
+            case 12:
+                if (day == 31) return 1 +" "+ 1 + " "+(year+1);
                 break;
             case 4:
             case 6:
@@ -19,7 +20,7 @@ public class GetDay {
             case 2:
                 if (day == 28) return 1 +" "+ (month+1) + " "+year;
                 break;
-
+            default: return (day+1) +" "+ month + " "+year;
         }
         return (day+1) +" "+ month + " "+year;
     }
