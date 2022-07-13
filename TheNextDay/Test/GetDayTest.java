@@ -29,4 +29,18 @@ public class GetDayTest {
         String result = GetDay.nextDay(day,month,year);
         assertEquals(expected,result);
     }
+
+    @Test
+    @DisplayName("Testing 30 4 2018")
+    void  nexDayOf30_4_2018(){
+        int day = 30;
+        int month = 4;
+        int year = 2018;
+        String expected = "1 5 2018";
+
+        String result = GetDay.nextDay(day,month,year);
+        assertEquals(expected,result);
+    }
+
+
 }
