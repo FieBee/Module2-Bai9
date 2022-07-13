@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Absolute-number-calculator/Absolute-number-calculator.iml" filepath="$PROJECT_DIR$/Absolute-number-calculator/Absolute-number-calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Bai9.iml" filepath="$PROJECT_DIR$/.idea/Bai9.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
     </modules>
